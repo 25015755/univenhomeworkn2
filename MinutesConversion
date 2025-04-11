@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.minutesconversion1;
+
+/**
+ *
+ * @author Mmboneni Zwivhuya
+ */
+import java.util.Scanner;
+public class MinutesConversion {
+
+    public static void main(String[] args) {
+  Scanner Input = new Scanner( System.in);
+  System.out.println("enter the number of minutes: ");
+  double minutes = Input.nextDouble();
+  double hours = minutes / 60;
+  double days = hours /24;
+  System.out.printf ("%. 1f minutes = %.2f hours or %.2f days%n" +minutes + hours + days);
+Input.close();
+  
+    }
+}
